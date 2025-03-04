@@ -2,7 +2,7 @@
 
 class Conexion {
 
-    private $host = "localhost"; // Servidor local
+    private $host = "postgres-db"; // Servidor local
     private $port = "5432";      // Puerto por defecto de PostgreSQL
     private $dbname = "devdb"; // Nombre de tu base de datos
     private $user = "postgres";  // Usuario de PostgreSQL
