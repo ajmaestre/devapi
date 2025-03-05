@@ -1,8 +1,9 @@
 <?php 
 
     header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Origin: http://dev-app:3000");
     header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
-    header("Access-Control-Allow-Headers: Access-Control-Allow-Origin, Content-Type, token");
+    header("Access-Control-Allow-Headers: Access-Control-Allow-Origin, Content-Type");
     header("Content-Type: application/json");
 
     require_once "../app/services/datos.php";
