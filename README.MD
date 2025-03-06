@@ -45,7 +45,7 @@ cd devapi
 
 2️⃣ Construye la imagen:
 ```sh
-docker build . -t devapp
+docker build . -t devapi
 ```
 
 ---
