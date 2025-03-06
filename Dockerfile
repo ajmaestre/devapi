@@ -12,7 +12,9 @@ WORKDIR /var/www/html
 COPY . /var/www/html
 
 COPY create_table.php /var/www/html/
-CMD ["php", "/var/www/html/create_table.php"] && apache2-foreground
+
+CMD php /var/www/html/create_table.php && apache2-foreground
+
 
 # Expose port 80 to the Docker host
 EXPOSE 80
