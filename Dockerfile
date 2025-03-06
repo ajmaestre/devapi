@@ -13,3 +13,4 @@ COPY . /var/www/html
 
 # Expose port 80 to the Docker host
 EXPOSE 80
+
