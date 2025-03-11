@@ -78,7 +78,7 @@ docker exec -it postgres-db psql -U postgres -d devdb
 ## 📝 6. Verificación en el Navegador
 
 ```sh
-http://localhost:8080/routes/datoRoute.php
+http://localhost:80/routes/datoRoute.php
 ```
 
 ---

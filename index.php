@@ -18,7 +18,7 @@
         <section class="section" id="uso">
             <div class="get-data">
                 <h1>GET</h1>
-                <a href="http://localhost:8080/routes/datoRoute.php">http://localhost:8080/routes/datoRoute.php</a>
+                <a href="http://localhost:80/routes/datoRoute.php">http://localhost:80/routes/datoRoute.php</a>
             </div>
             <p>
                 Para actualizar registros el codigo correspondiente 
